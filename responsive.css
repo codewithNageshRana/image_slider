@@ -1,0 +1,94 @@
+/* Responsive Design */
+
+@media screen and (max-width: 999px){
+    header{
+        padding-left: 50px;
+    }
+
+    .carousel{
+        height: 80vh;  /* Adjust carousel height on smaller screens */
+    }
+
+    .list .item .content{
+        left: 20px;
+        width: 90%;  /* Adjust content width */
+    }
+
+    .content .title, .content .name{
+        font-size: 70px;
+    }
+
+    .content .des{
+        font-size: 16px;
+    }
+
+    .arrows button{
+        width: 40px;
+        height: 40px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 690px){
+    header{
+        padding-left: 20px;
+    }
+
+    .carousel{
+        height: 70vh;  /* Adjust carousel height for smaller screens */
+    }
+
+    .list .item .content{
+        left: 10px;
+        width: 90%;  /* Adjust content width */
+    }
+
+    .content .title, .content .name{
+        font-size: 50px;  /* Reduce title and name size */
+    }
+
+    .content .des{
+        font-size: 14px;
+    }
+
+    .content .btn button{
+        padding: 8px 15px;
+        font-size: 12px;
+    }
+
+    .arrows button{
+        width: 35px;
+        height: 35px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .carousel{
+        height: 60vh;  /* Reduce carousel height for very small screens */
+    }
+
+    .list .item .content{
+        left: 0;
+        width: 100%;
+    }
+
+    .content .title, .content .name{
+        font-size: 40px;  /* Further reduce title and name size */
+    }
+
+    .content .des{
+        font-size: 12px;
+    }
+
+    .content .btn button{
+        padding: 6px 12px;
+        font-size: 10px;
+    }
+
+    .arrows button{
+        width: 30px;
+        height: 30px;
+        font-size: 10px;
+    }
+}
